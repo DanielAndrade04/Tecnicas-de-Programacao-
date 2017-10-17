@@ -42,6 +42,6 @@ else if(sorteados == 3){
     printf("Ganhou Quase\n");
 }
 else
-    printf("Ganhou Nao foi hoje\n");
+    printf("Nao foi hoje\n");
 }
 
