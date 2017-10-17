@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*10 - Faça um programa que peça ao usuario para digitar 10 valores e someos*/
+/*10 - FaÃ§a um programa que peÃ§a ao usuario para digitar 10 valores e someos*/
 
 int main(){
 
