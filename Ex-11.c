@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*11 - Faça um programa que leia 10 inteiros e imprima sua media*/
+/*11 - FaÃ§a um programa que leia 10 inteiros e imprima sua media*/
 
 int main(){
 
