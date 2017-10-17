@@ -7,30 +7,24 @@
  - 3 números, imprima: Quase
  - Caso contrário, imprima: Não foi hoje.*/
 
-int main(void){
+int main(){
+
+int num[] = {7,25,33,42,51,58};
 int i,x;
+x=0;
 int numescolhidos[6];
-int num[6];
-num[0]=7;
-num[1]=25;
-num[2]=33;
-num[3]=42;
-num[4]=51;
-num[5]=58;
 
 printf("Escolha 6 numeros entre 1 a 60\n");
 
-for(i=0; i!=6; i++){
+for(i=0; i<6; i++){
     printf("\n%d- numero de 6: ", i+1);
     scanf("%d",&numescolhidos[i]);
 }
-for(i=0; i!=6; i++){
-    if(numescolhidos[i] == num[i])
+for(i=0; i<6; i++){
+    if(numescolhidos[i] == num[i]){
         x++;
 }
-
-printf("\nVoce acertou: %d numeros\n", x);
-
+}
 if(x == 6){
     printf("Ganhou Tudo\n");
 }
@@ -45,7 +39,6 @@ else if(x == 3){
 }
 else
     printf("Nao foi hoje\n");
-
 return 0;
 }
 
