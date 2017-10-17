@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*12 - Faça um programa que leia 10 inteiros positivos, ignorando os negativos positivos, e imprima sua media*/
+/*12 - FaÃ§a um programa que leia 10 inteiros positivos, ignorando os negativos positivos, e imprima sua media*/
 
 int main(){
 int x,y,z;
