@@ -1,6 +1,7 @@
-/*FaÁa um programa que receba um numero n, que consiste na quantidade de notas que ser„o digitadas.Ao final, mostre todas as notas e a media das mesmas.
-Caso a media seja maior que 60, imprima tambÈm "Aprovado" caso contrario imprima "Reprovado".*/
 #include<stdio.h>
+/*Fa√ßa um programa que receba um numero n, que consiste na quantidade de notas que ser√£o digitadas.Ao final, mostre todas as notas e a media das mesmas.
+Caso a media seja maior que 60, imprima tamb√©m "Aprovado" caso contrario imprima "Reprovado".*/
+
 int main (){
 int i, b, c;
 float d, media;
@@ -28,14 +29,9 @@ printf("\nMedia das notas = %.2f\n", media);
     else if (media <60){
         printf("\nReprovado\n");
     }
+    printf("\nNotas digitadas:\n");
 
-    printf("\nNotas digitadas:");
-
-for(;i!=b; i++){
-    printf("%d", a[i]);
+for(i=0;i!=b; i++){
+    printf("%.f,", a[i]);
 }
 }
-
-
-
-
