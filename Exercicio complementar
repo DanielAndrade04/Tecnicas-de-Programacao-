@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main (void){
+
+int a, b;
+char operador;
+
+scanf("%d%d", &a,&b);
+printf("Escolha a operacao desejada:\n 1-Soma\t 2-Subtracao\n");
+scanf("%d", &operador);
+
+switch (operador){
+
+case 1:
+    printf(a+b);
+break;
+default: break;
+}
+
+
+return 0;
+}
